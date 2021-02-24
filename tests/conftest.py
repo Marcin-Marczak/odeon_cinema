@@ -2,7 +2,7 @@ import pytest
 from utils.driver_factory import DriverFactory
 import random
 
-browsers = ["chrome", "opera"]
+browsers = ["chrome", "opera", "firefox"]
 
 
 @pytest.fixture()
